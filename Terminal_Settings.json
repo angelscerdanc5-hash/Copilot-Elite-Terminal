@@ -1,0 +1,93 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e770e-654d-46e6-90c7-d3369f067d26}",
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "useAcrylic": true,
+            "opacity": 65,
+            "padding": "45",
+            "scrollbarState": "hidden",
+            "colorScheme": "Copilot+ Elite",
+            "cursorShape": "bar",
+            "antialiasingMode": "grayscale",
+            "font": {
+                "face": "Cascadia Code",
+                "size": 12,
+                "weight": "light"
+            },
+            "historySize": 9001
+        },
+        "list": [
+            {
+                "commandline": "pwsh.exe -NoLogo",
+                "guid": "{574e770e-654d-46e6-90c7-d3369f067d26}",
+                "name": "PowerShell 7",
+                "icon": "ms-appx:///Resources/Icons/PowerShellCore_48.png",
+                "useAcrylic": true,
+                "opacity": 70,
+                "backgroundImageOpacity": 0.2
+            },
+            {
+                "commandline": "cmd.exe /K \"C:\\Users\\INTEL\\Documents\\copilot_cmd.cmd\"",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Simbolo del sistema"
+            },
+            {
+                "commandline": "powershell.exe -NoLogo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "useAcrylic": true,
+                "opacity": 70,
+                "backgroundImageOpacity": 0.2
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Copilot+ Elite",
+            "background": "#05070A",
+            "foreground": "#F2F5F7",
+            "black": "#1C1C1C",
+            "red": "#FF5C5C",
+            "green": "#00FF7F",
+            "yellow": "#FFE66D",
+            "blue": "#4D96FF",
+            "purple": "#BD93F9",
+            "cyan": "#00F5FF",
+            "white": "#EAEAEA",
+            "brightBlack": "#6272A4",
+            "brightRed": "#FF8E8E",
+            "brightGreen": "#69FFB4",
+            "brightYellow": "#FFF3A1",
+            "brightBlue": "#80B3FF",
+            "brightPurple": "#D6BCFF",
+            "brightCyan": "#84F9FF",
+            "brightWhite": "#FFFFFF",
+            "cursorColor": "#00F5FF",
+            "selectionBackground": "#4D96FF"
+        }
+    ]
+}
